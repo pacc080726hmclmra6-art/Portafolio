@@ -1,0 +1,142 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-image: url('../img/fondogreen.jpg');
+}
+
+.contenedor {
+  display: flex;
+  flex: 1;
+  i
+}
+
+/* ==== MENÚ LATERAL ==== */
+.menu-lateral {
+  width: 300px;
+  background-color: #E0FFBA;
+  color: black;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-lateral h2 {
+  margin-bottom: 20px;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.menu-lateral ul li {
+  width: 100%;
+}
+
+.menu-lateral ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 20px 25px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.menu-lateral ul li a:hover,
+.menu-lateral ul li a.activo {
+  background-color: #E6C9FF;
+}
+
+/* ==== CONTENIDO PRINCIPAL ==== */
+.contenido {
+  flex: 1;
+  padding: 100px;
+  overflow-y: auto;
+}
+
+.seccion {
+  display: none;
+}
+
+.seccion.visible {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* ==== TARJETAS ==== */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tarjeta {
+  background-color: #E6C9FF;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+  transform: scale(1.05);
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.boton {
+  display: inline-block;
+  background-color: #749672;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.boton:hover {
+  background-color: #6B3A99;
+}
+
+/* ==== TARJETA CONTACTO ==== */
+.tarjeta-contacto {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.tarjeta-contacto h2 {
+  color: #E6C9FF;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tarjeta-contacto p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+/* ==== FOOTER ==== */
+footer {
+  background-color: #E6C9FF;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
