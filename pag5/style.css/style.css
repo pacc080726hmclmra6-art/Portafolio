@@ -1,0 +1,39 @@
+body{
+	font-family:  'Poppins'. sans-serif;
+	background-color: #f9f9f9;
+	color: #222
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #14213d;
+	color: white;
+	text-align: center;
+	padding: 25px;
+}
+
+.contenedor-video {
+	text-align: center;
+	background-color: white;
+	margin: 50px auto;
+	padding: 30px;
+	border-radius: 15px;
+	width: 70%;
+	box-shadow: 0.4px 10px rgba(0, 0, 0, 0,15);
+}
+
+video{
+	border-radius: 10px;
+	border: 3px solid #14213d;
+	width: 90%;
+	max-width: 800px;
+}
+
+footer{
+	text-align: center;
+	background-color: #000000;
+	color: white;
+	padding: 15px;
+	margin-top: 40px;
+}
